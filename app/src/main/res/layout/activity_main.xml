@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <!-- Primeira parte -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/balada_imagem"
+        android:layout_weight="1.2">
+
+        <!-- Parte de cima -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="50sp"
+                android:layout_height="30sp"
+                android:src="@drawable/soundwave_icon"
+                android:layout_weight="0.25"
+                android:scaleType="centerInside"
+                android:background="@drawable/botao_redondo_ballad"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15K  FOLLOWERS"
+                android:layout_weight="2"
+                android:layout_marginLeft="10sp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="120sp"
+                android:layout_height="35sp"
+                android:text="FOLLOW"
+                android:background="@drawable/btn_follow_ballad"
+                android:textColor="#fff"
+                android:fontFamily="monospace"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <!-- Parte de baixo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."/>
+
+    </LinearLayout>
+
+    <!-- Segunda parte -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/jazz_imagem"
+        android:layout_weight="0.9">
+
+        <!-- Parte de cima -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="50sp"
+                android:layout_height="30sp"
+                android:src="@drawable/soundwave_icon"
+                android:layout_weight="0.25"
+                android:scaleType="centerInside"
+                android:background="@drawable/botao_redondo_jazz"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15K  FOLLOWERS"
+                android:layout_weight="2"
+                android:layout_marginLeft="10sp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                />
+
+            <Button
+                android:layout_width="120sp"
+                android:layout_height="35sp"
+                android:text="FOLLOW"
+                android:background="@drawable/btn_follow_jazz"
+                android:textColor="#fff"
+                android:fontFamily="monospace"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <!-- Parte de baixo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."/>
+
+    </LinearLayout>
+
+    <!-- Terceira parte -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rock_imagem"
+        android:layout_weight="1.6">
+
+        <!-- Parte de cima -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="50sp"
+                android:layout_height="30sp"
+                android:src="@drawable/soundwave_icon"
+                android:layout_weight="0.25"
+                android:scaleType="centerInside"
+                android:background="@drawable/botao_redondo_jazz"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15 K  FOLLOWERS"
+                android:layout_weight="2"
+                android:layout_marginLeft="10sp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:textColor="#fff"/>
+
+            <Button
+                android:layout_width="120sp"
+                android:layout_height="35sp"
+                android:text="FOLLOW"
+                android:background="@drawable/btn_follow_rock"
+                android:textColor="#fff"
+                android:fontFamily="monospace"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <!-- Parte de baixo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -7,13 +7,33 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+    <!-- App bar -->
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:title="Genre"
+        app:titleTextColor="#fff"
+        app:titleMarginStart="180sp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:src="@drawable/lupa"
+            android:layout_marginLeft="140sp"/>
+        
+    </androidx.appcompat.widget.Toolbar>
+
     <!-- Primeira parte -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:background="@drawable/balada_imagem"
-        android:layout_weight="1.2">
+        android:layout_weight="1.2"
+        android:backgroundTint="@color/Balada1"
+        android:backgroundTintMode="src_over"
+        >
 
         <!-- Parte de cima -->
         <LinearLayout
@@ -27,7 +47,10 @@
                 android:src="@drawable/soundwave_icon"
                 android:layout_weight="0.25"
                 android:scaleType="centerInside"
-                android:background="@drawable/botao_redondo_ballad"/>
+                android:background="@drawable/botao_redondo_ballad"
+                android:tint="@color/Balada1"
+                android:backgroundTint="#fff"
+                />
 
             <TextView
                 android:layout_width="match_parent"
@@ -53,7 +76,25 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."/>
+            android:text="DANCE"
+            android:textAlignment="gravity"
+            android:gravity="center|bottom"
+            android:fontFamily="monospace"
+            android:textSize="38sp"
+            android:layout_marginTop="40sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3754 TRACKS"
+            android:textAlignment="gravity"
+            android:gravity="center|bottom"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:textColor="@color/BaladaLetra"
+            />
 
     </LinearLayout>
 
@@ -63,7 +104,9 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:background="@drawable/jazz_imagem"
-        android:layout_weight="0.9">
+        android:layout_weight="0.9"
+        android:backgroundTint="@color/Jazz1"
+        android:backgroundTintMode="src_over">
 
         <!-- Parte de cima -->
         <LinearLayout
@@ -77,7 +120,10 @@
                 android:src="@drawable/soundwave_icon"
                 android:layout_weight="0.25"
                 android:scaleType="centerInside"
-                android:background="@drawable/botao_redondo_jazz"/>
+                android:background="@drawable/botao_redondo_ballad"
+                android:tint="@color/Jazz1"
+                android:backgroundTint="#fff"
+                />
 
             <TextView
                 android:layout_width="match_parent"
@@ -105,7 +151,25 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."/>
+            android:text="JAZZ"
+            android:textAlignment="gravity"
+            android:gravity="center|bottom"
+            android:fontFamily="monospace"
+            android:textSize="38sp"
+            android:layout_marginTop="40sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12357 TRACKS"
+            android:textAlignment="gravity"
+            android:gravity="center|bottom"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            />
 
     </LinearLayout>
 
@@ -115,7 +179,9 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:background="@drawable/rock_imagem"
-        android:layout_weight="1.6">
+        android:layout_weight="1.6"
+        android:backgroundTint="@color/Rock3"
+        android:backgroundTintMode="src_atop">
 
         <!-- Parte de cima -->
         <LinearLayout
@@ -129,12 +195,15 @@
                 android:src="@drawable/soundwave_icon"
                 android:layout_weight="0.25"
                 android:scaleType="centerInside"
-                android:background="@drawable/botao_redondo_jazz"/>
+                android:background="@drawable/botao_redondo_ballad"
+                android:tint="@color/Rock1"
+                android:backgroundTint="#fff"
+                />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="15 K  FOLLOWERS"
+                android:text="15K  FOLLOWERS"
                 android:layout_weight="2"
                 android:layout_marginLeft="10sp"
                 android:fontFamily="monospace"
@@ -156,7 +225,25 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."/>
+            android:text="ROCK"
+            android:textAlignment="gravity"
+            android:gravity="center|bottom"
+            android:fontFamily="monospace"
+            android:textSize="38sp"
+            android:layout_marginTop="40sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15219 TRACKS"
+            android:textAlignment="gravity"
+            android:gravity="center|bottom"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:textColor="@color/RockLetra"
+            />
 
     </LinearLayout>
 

@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#E1465AD5</color>
+    <color name="colorPrimaryDark">#3949AB</color>
+    <color name="colorAccent">#3949AB</color>
 
     <!-- Balada -->
-    <color name="Balada1">#19c6b2</color>
+    <color name="Balada1">#BE09E6CC</color>
     <color name="Balada2">#19a29b</color>
     <color name="Balada3">#168dab</color>
+    <color name="BaladaLetra">#84FFFF</color>
 
     <!-- Jazz -->
-    <color name="Jazz1">#e95e95</color>
+    <color name="Jazz1">#BFE95E95</color>
     <color name="Jazz2">#fe8681</color>
     <color name="Jazz3">#d17d5b</color>
 
     <!-- Rock -->
-    <color name="Rock1">#6796be</color>
+    <color name="Rock1">#B46796BE</color>
     <color name="Rock2">#7455a3</color>
-    <color name="Rock3">#af3bb8</color>
+    <color name="Rock3">#B5AF3BB8</color>
+    <color name="RockLetra">#C5AFEE</color>
+
 </resources>
